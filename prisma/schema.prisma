@@ -1,0 +1,27 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+model User {
+  id             String           @id @unique
+  email          String
+  firstname      String
+  lastName       String
+  profileimage   String?
+  GuestbookEntry GuestBookEntry[]
+}
+
+model GuestBookEntry {
+  id      String @id @default(uuid())
+  message String
+
+  createdAt DateTime @default(now())
+  User      User?    @relation(fields: [userId], references: [id])
+  userId    String?
+}
