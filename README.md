@@ -1,3 +1,17 @@
+🚀 modern Portfolio Website with Next.js.14, Tailwind, Kinde, Prisma and Supabase! Learn step-by-step and elevate your development skills. 
+
+🚀 Kinde Auth: https://dub.sh/xeU8r3v
+
+Resources used:
+- Next.js: https://nextjs.org
+- Kinde: https://dub.sh/xeU8r3v
+- Tailwind.css: https://tailwindcss.com
+- Shadcn/UI: https://ui.shadcn.com
+- Prisma: https://prisma.io
+- Supabase: https://supabase.com
+- Sanity: https://www.sanity.io/
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
